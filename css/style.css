@@ -1,0 +1,366 @@
+/*Global Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 60px;
+    background-color: #e84002;
+}
+
+.main-menu {
+    float: right;
+    line-height: 60px;
+    vertical-align: middle;
+    
+}
+
+.main-menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffebc0;
+    margin-right: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.main-menu a:last-child {
+    margin-right: 0;
+}
+
+.main-menu a:hover {
+    background-color: #ca3702;
+}
+
+
+/*JUMBO*/
+
+.jumbo {
+    height: 600px;
+    background-image:url(../img/mountain-climber-silhouette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+.jumbo-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    color:  #ffebc0;
+}
+
+.jumbo-title {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.jumbo-subtitle {
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*HISTORY*/
+
+.history {
+    background-color: #ffebc0;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.history-title {
+    margin-top: 20px;
+    color: #e84002;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.history-par {
+    display: inline-block;
+    color: #e84002;
+    font-size: 18px;
+    width: 1000px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+/* INDOOR */
+
+.indoor {
+    box-sizing: border-box;
+    background-color: #e84002;
+    padding: 50px;
+}
+
+.indoor-title {
+    color:  #ffebc0;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.indoor-place {
+    display: inline-block;
+    position: relative;
+    background-color: #ffebc0;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px  #332300;
+    
+}
+
+.indoor-place:last-child {
+    margin-right: 0;
+}
+
+.sofia,
+.plovdiv,
+.varna,
+.st-zagora,
+.ruse,
+.botevgr,
+.lovech,
+.smolyan {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffebc0;
+    border-radius: 50%;
+}
+
+
+/*OUTDOOR*/
+
+.outdoor {
+    box-sizing: border-box;
+    background-color: #ffebc0;
+    padding: 50px;
+}
+
+.outdoor-title {
+    color: #e84002;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.outdoor-subtitle {
+    color: #e84002;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.outdoor-text {
+    color: #e84002;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dest {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 60px;
+    margin-right: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.first {
+    background-image: url(../img/mountain-sil.png);
+   
+}
+
+.second {
+    background-image: url(../img/mountain-silhouette3.png);
+
+}
+
+.third {
+    background-image: url(../img/mountain-sil.png);
+}
+
+.fourth {
+    background-image: url(../img/mountain-silhouette3.png);
+}
+
+.fifth {
+    background-image: url(../img/mountain-sil.png);
+}
+
+.sixth {
+    background-image: url(../img/mountain-silhouette3.png);
+}
+
+.seventh {
+    background-image: url(../img/mountain-sil.png);
+}
+
+.eight {
+    background-image: url(../img/mountain-silhouette3.png);
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #e84002;
+    height: 200px;
+    
+}
+
+.footer-box1 {
+    display: inline-block;
+    width: 48%;
+    border-right: 1px solid #ffebc0;
+    margin-top: 30px;
+}
+
+.footer-box1 a {
+    display: block;
+    text-decoration: none;
+    color: #ffebc0;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-right: 30px;
+}
+
+.footer-box2 {
+    display: inline-block;
+    width: 48%; 
+    float: right;
+}
+
+.fb {
+    display: inline-block;
+    background-image: url(../img/facebook.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+    
+}
+
+.insta {
+    display: inline-block;
+    background-image: url(../img/instagram.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+
+
+/*CONTACT-page*/
+
+body {
+    background-color: #ffebc0;
+}
+
+.form {
+    font-size: 20px;
+    border: 2px solid #e84002;
+    border-radius: 5px;
+    text-align: left;
+    margin: 30px 30px 30px 30px;
+    box-shadow: 2px 2px #4b1502;
+    padding: 10px 10px 10px 10px;
+}
+
+.title-contact {
+    color: #e84002;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* CAROUSEL*/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
